@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.121371">
+<testcase classname="Parsing the JSON response from RestAPI" name="Calling the RestAPI through POST request type" time="8.121371">
+<system-out><![CDATA[Given Application calls the RestFul API URL.................................passed
+When Application sends the resource with API call...........................passed
+Then JSON Response is tested for the given validation.......................passed
+And validation is done on the response object...............................passed
+]]></system-out>
+</testcase>
+</testsuite>

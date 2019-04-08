@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Calling the RestAPI through POST request type",
+        "description": "",
+        "id": "parsing-the-json-response-from-restapi;calling-the-restapi-through-post-request-type",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 481420276,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Application calls the RestFul API URL",
+            "match": {
+              "location": "stepDefinition.application_calls_the_restful_api_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52855,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Application sends the resource with API call",
+            "match": {
+              "location": "stepDefinition.application_sends_the_resource_with_api_call()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7639847189,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "JSON Response is tested for the given validation",
+            "match": {
+              "location": "stepDefinition.json_response_is_tested_for_the_given_validation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50309,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "validation is done on the response object",
+            "match": {
+              "location": "stepDefinition.validation_is_done_on_the_response_object()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Parsing the JSON response from RestAPI",
+    "description": "",
+    "id": "parsing-the-json-response-from-restapi",
+    "keyword": "Feature",
+    "uri": "RestfulAPI.feature"
+  }
+]
